@@ -13,7 +13,7 @@ body{
 
 .container{
     width: 100%;
-    height: 100vh;
+    height: 115vh;
     background:url(images/real-bg-got.jpg);
     background-size: cover;
     background-position: bottom left;
@@ -65,7 +65,7 @@ body{
 section{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height:115vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -150,7 +150,7 @@ section::before{
 .sec{
     position: relative;
     top: 0;
-    height: 500px;
+    height:50rem;
     padding-left: 110px;
     background-color: #02161c;
 }
@@ -268,3 +268,69 @@ section::before{
     font-size: 1.5rem;
 }
 
+
+.sec .row3{
+    position: absolute;
+    top: 33rem;
+    width: 82%;
+    display: flex;
+    margin-top: 5rem;
+    gap: 8rem;
+}
+
+.sec .row3 h2{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.row3 .col{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.row3 .c1{
+    width:10rem;
+    margin-right: 0;
+    line-height: 20px;
+}
+
+.sec .row3 .col:last-child{
+    margin: 0;
+}
+
+.row3 .c1 h5{
+    color: ghostwhite;
+}
+
+.row3 .c1 h6{
+    color: rgb(152, 152, 153);
+}
+
+.row3 .col img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cast{
+    position: absolute;
+    top:-6rem;
+    left:5rem ;
+}
+
+.rb{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+}
